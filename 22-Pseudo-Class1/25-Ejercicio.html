@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>ejercicio de read-only selector</title>
+<style>
+input:-moz-read-only { /* For Firefox */
+  background-color: lightblue;
+}
+
+input:read-only {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h3>Esto es un ejercicio de read-only selector.</h3>
+
+<p>A normal input element:<br><input value="ingrese Su nombre "></p>
+
+<p>A readonly input element:<br><input readonly value="Ingrese su apellido "></p>
+
+<p>The :read-only selector selects form elements with a "readonly" attribute.</p>
+
+
+
+</body>
+</html>

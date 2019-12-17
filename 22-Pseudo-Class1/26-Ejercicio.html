@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio de read-write selector</title>
+<style>
+input:-moz-read-write { /* For Firefox */
+  background-color: lightblue ;
+}
+
+input:read-write {
+  background-color: lightblue ;
+}
+</style>
+</head>
+<body>
+
+<h3>A demonstration of the :read-write selector.</h3>
+
+<p>esto es un elemento de input:<br><input value="ingrese Su Nombre "></p>
+
+<p>esto es un elemto de input :<br><input readonly value="Ingrese su Apellido "></p>
+
+<p>The :read-write selector selects form elements with no "readonly" attribute.</p>
+
+
+
+</body>
+</html>
